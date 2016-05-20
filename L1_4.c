@@ -31,14 +31,6 @@ void SortMas(int n1, int n2, int (*mas)[SIZE])
 		
 }
 
-/*
-for(i2 = 0; i2 < n2; i2++) {
-			if(i1 < SIZE / 2)
-				mas[i1][i2] = 0;
-			else if()
-		}	
-*/
-
 int main()
 {
 	int mas[SIZE][SIZE];
