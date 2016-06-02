@@ -96,6 +96,10 @@ int main(void)
 	printf("\nMAS C:\n");
 	printMas2(mas_C, rows_A, columns_B);
 	
+	free(mas_A);
+	free(mas_B);
+	free(mas_C);
+	
 	
 	return 0;
 }
